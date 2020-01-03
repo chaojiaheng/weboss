@@ -1,0 +1,31 @@
+/*Business Classification model*/
+
+.userformBoxList .typeBox hr{
+  border: 0.6px solid #EDEDED;
+}
+
+.userformBoxList .typeBox .selectItem {
+  /*width: 612;   660- 24 -24 */
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.userformBoxList .typeBox .selectItem .btn{
+  width: 190px;
+  margin: 0 20px 20px 0;
+  padding: 0;
+}
+.userformBoxList .typeBox .selectItem .btn.right{
+  margin-right: 0;
+}
+.userformBoxList .typeBox .selectItem .btn.selected{
+  background-color: #1890ff;
+  color: #fff;
+}
+
+
+
+.currenCompanyTable  .ant-table table tbody tr {
+  background-color: #ffd788;
+}

@@ -1,0 +1,61 @@
+.userformBox .formSection{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.userformBox .formSection .label{
+  float: right;
+  width: 100px;
+  text-align: right;
+  margin-top: 3px;
+}
+.userformBox .formSection .con{
+  width: 100%;
+}
+.userformBox .formSection .con .listAvatar{
+  margin-right: 12px;
+  width: 40.6px;
+  height: 40px;
+}
+.userformBox .formSection .con .listA{
+  margin-top: 6px;
+}
+
+.userformBox .ant-form-item{
+  margin-bottom: 10px;
+}
+
+/*视频按钮样式调整*/
+.video-js .vjs-big-play-button {
+  top: 50% !important;
+  left: 50% !important;
+  /*width: 3em;*/
+  /*height: 1.63332em;*/
+  margin-top: -0.81666em;
+  margin-left: -1.5em;
+}
+.noplayer {
+  background-color: #fff;
+  margin-top: 3px;
+  color: #ec0928;
+}
+
+
+/*询盘*/
+.roleP-checkbox-row {
+  margin-bottom: 10px;
+}
+.roleP-checkbox-row-children {
+  margin-left: 50px;
+}
+.roleP-checkbox-row .ant-checkbox-wrapper {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.roleP-checkbox-row-children label {
+  margin-right: 10px;
+}
+
+.UploadDiv img{
+  width: 710px;
+}

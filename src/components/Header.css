@@ -1,0 +1,39 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1.066667rem;
+  padding: 0.213333rem 0.32rem;
+  background-color: #fff;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.header-logo {
+  width: 2.453333rem;
+  height: 0.64rem;
+  background: no-repeat url('../images/logo.png');
+  background-size: 100%;
+  margin-right: 0.213333rem;
+}
+
+.header-search {
+  flex: 1;
+  border-radius: 0.133333rem;
+  background: #e7e8ed no-repeat url('../images/search.png');
+  background-size: 0.32rem;
+  background-position: 0.16rem center;
+  padding-left: 0.64rem;
+  line-height: 0.64rem;
+  font-size: 0.32rem;
+  color: #858e98;
+}
+
+.header-scan {
+  margin-left: 0.213333rem;
+  width: 0.64rem;
+  height: 0.64rem;
+  background: no-repeat url('../images/scan.png');
+  background-size: 100%;
+}

@@ -1,0 +1,59 @@
+.foot-tabs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1.306667rem;
+  display: flex;
+  padding: 0.186667rem 0 0.16rem 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.foot-tab {
+  flex: 1;
+  text-align: center;
+  color: #858e98;
+}
+
+.foot-tab-text {
+  font-size: 0.293333rem;
+  line-height: 0.293333rem;
+}
+
+.foot-tab-text.active {
+  color: #ec0928;
+}
+
+.foot-tab-icon {
+  height: 0.586667rem;
+  margin-bottom: 0.08rem;
+  background-size: 0.586667rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.foot-tab-icon.home {
+  background-image: url('../images/home_n.png');
+}
+.foot-tab-icon.home.active {
+  background-image: url('../images/home_p.png');
+}
+.foot-tab-icon.category {
+  background-image: url('../images/category_n.png');
+}
+.foot-tab-icon.category.active {
+  background-image: url('../images/category_p.png');
+}
+.foot-tab-icon.cart {
+  background-image: url('../images/cart_n.png');
+}
+.foot-tab-icon.cart.active {
+  background-image: url('../images/cart_p.png');
+}
+.foot-tab-icon.mine {
+  background-image: url('../images/mine_n.png');
+}
+.foot-tab-icon.mine.active {
+  background-image: url('../images/mine_p.png');
+}

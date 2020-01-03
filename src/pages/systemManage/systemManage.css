@@ -1,0 +1,26 @@
+.userformBox .formSection{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.userformBox .formSection .label{
+  float: right;
+  width: 100px;
+  text-align: right;
+  margin-top: 3px;
+}
+.userformBox .formSection .con{
+  width: 100%;
+}
+.userformBox .formSection .con .listAvatar{
+  margin-right: 12px;
+  width: 40.6px;
+  height: 40px;
+}
+.userformBox .formSection .con .listA{
+  margin-top: 6px;
+}
+
+.userformBox .ant-form-item{
+  margin-bottom: 10px;
+}

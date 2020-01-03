@@ -1,0 +1,25 @@
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.login-footer{
+  padding: 30px 30px 0 30px;
+}
+
+
+.login-wrapper .login-logo{
+    position: absolute;
+    left: 1.61%;
+    top: 3px;
+    width: 260px;
+    height: 137px;
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
